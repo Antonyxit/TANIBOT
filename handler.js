@@ -958,12 +958,12 @@ if (!('sPromote' in chat)) chat.sPromote = ''
 if (!('sDemote' in chat)) chat.sDemote = '' 
 if (!('delete' in chat))
 chat.delete = true                    
-if (!('modohorny' in chat)) chat.modohorny = true                    
+if (!('modohorny' in chat)) chat.modohorny = false                    
 if (!('stickers' in chat)) chat.stickers = false                   
 if (!('autosticker' in chat)) chat.autosticker = false                      
-if (!('audios' in chat)) chat.audios = true                     
+if (!('audios' in chat)) chat.audios = false                     
 if (!('antiver' in chat)) chat.antiver = false                  
-if (!('antiLink' in chat)) chat.antiLink = false                    
+if (!('antiLink' in chat)) chat.antiLink = true                    
 if (!('antiLink2' in chat)) chat.antiLink2 = false
 if (!('antiTiktok' in chat)) chat.antiTiktok = false
 if (!('antiYoutube' in chat)) chat.antiYoutube = false
@@ -972,9 +972,9 @@ if (!('antiFacebook' in chat)) chat.antiFacebook = false
 if (!('antiInstagram' in chat)) chat.antiInstagram = false
 if (!('antiTwitter' in chat)) chat.antiInstagram = false
 if (!('antifake' in chat)) chat.antifake = false
-if (!('reaction' in chat)) chat.reaction = true    
+if (!('reaction' in chat)) chat.reaction = false    
 if (!('viewonce' in chat)) chat.viewonce = false       
-if (!('modoadmin' in chat)) chat.modoadmin = false           
+if (!('modoadmin' in chat)) chat.modoadmin = true           
 if (!('antitoxic' in chat)) chat.antitoxic = true 
 if (!('simi' in chat)) chat.simi = false
 if (!('antiTraba' in chat)) chat.antiTraba = true
@@ -990,12 +990,12 @@ sBye: '',
 sPromote: '',
 sDemote: '', 
 delete: true,
-modohorny: true,
+modohorny: false,
 stickers: false,
 autosticker: false,
-audios: true,
+audios: false,
 antiver: false,
-antiLink: false,
+antiLink: true,
 antiLink2: false,
 antiTiktok: false,
 antiYoutube: false,
@@ -1004,9 +1004,9 @@ antiFacebook: false,
 antiInstagram: false,
 antiTwitter: false,
 antifake: false,
-reaction: true,
+reaction: false,
 viewonce: false,
-modoadmin: false,
+modoadmin: true,
 antitoxic: true,
 simi: false,
 antiTraba: true,
@@ -1019,7 +1019,7 @@ if (settings) {
 if (!('self' in settings)) settings.self = false
 if (!('autoread' in settings)) settings.autoread = false
 if (!('autoread2' in settings)) settings.autoread2 = false
-if (!('restrict' in settings)) settings.restrict = false
+if (!('restrict' in settings)) settings.restrict = true
 if (!('temporal' in settings)) settings.temporal = false
 if (!('antiPrivate' in settings)) settings.antiPrivate = false
 if (!('antiCall' in settings)) settings.antiCall = true
@@ -1030,7 +1030,7 @@ if (!('jadibotmd' in settings)) settings.jadibotmd = false
 self: false,
 autoread: false,
 autoread2: false,
-restrict: false,
+restrict: true,
 temporal: false,
 antiPrivate: false,
 antiCall: true,
@@ -1227,7 +1227,7 @@ if (xp > 2000)
 m.reply('Exp limit') // Hehehe
 else               
 if (!isPrems && plugin.money && global.db.data.users[m.sender].money < plugin.money * 1) {
-this.reply(m.chat, `🐈 𝙉𝙊 𝙏𝙄𝙀𝙉𝙀 𝙂𝘼𝙏𝘼𝘾𝙊𝙄𝙉𝙎`, m)
+this.reply(m.chat, `🐈 𝙉𝙊 𝙏𝙄𝙀𝙉𝙀 𝑻𝑶𝑵𝒀𝑪𝑶𝑰𝑵𝑺`, m)
 continue     
 }
 			
@@ -1295,7 +1295,7 @@ if (m.limit)
 m.reply(+m.limit + lenguajeGB.smsCont8())
 }
 if (m.money)
-m.reply(+m.money + 'MonkeyCoins Usados')  
+m.reply(+m.money + '𝑻𝑶𝑵𝒀𝑪𝑶𝑰𝑵𝑺 Usados')  
 break
 }}} catch (e) {
 console.error(e)
