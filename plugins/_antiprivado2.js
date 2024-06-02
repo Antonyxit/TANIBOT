@@ -6,7 +6,7 @@ export async function before(m, {conn, isAdmin, isBotAdmin, isOwner, isROwner}) 
   const chat = global.db.data.chats[m.chat];
   const bot = global.db.data.settings[this.user.jid] || {};
   if (bot.antiPrivate && !isOwner && !isROwner) {
-    await m.reply(`*[❗] Hola @${m.sender.split`@`[0]},¡Qué onda, rey! 👑 Este es un bot para grupos de WhatsApp. 📲 Cualquier cosa, comunícate con mi dueño 📞 si deseas adquirir uno: +52 56 2576 8269. O entra al grupo de WhatsApp aquí: 👉 [https://chat.whatsapp.com/Ig0BhML7t4G8vmnmPrCKNb]. 🚀`, false, {mentions: [m.sender]});
+    await m.reply(`*[❗] Hola @${m.sender.split`@`[0]},Que onda bro! Soy Tony bot el mejor bot para WhatsApp, esta prohibido hablar al número del bot, si gustas adquirir mis servicios y saber más información contáctate con mi creador +5214461018899. 🚀`, false, {mentions: [m.sender]});
     await this.updateBlockStatus(m.chat, 'block');
   }
   return !1;
