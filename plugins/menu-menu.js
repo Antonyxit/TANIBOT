@@ -106,10 +106,10 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 
 ⊜ *Experiencia ➟* ${exp} ⚡
 ⊜ *Diamantes ➟* ${limit} 💎
-⊜ *𝑴𝑶𝑵𝑲𝑬𝒀𝑪𝑶𝑰𝑵𝑺 ➟* ${money} 🐈
+⊜ *𝙏𝙊𝙉𝙔𝘾𝙊𝙄𝙉𝙎 ➟* ${money} 🐈
 ⊜ *Tokens ➟* ${joincount} 🪙
 ${readMore}
-*╭━〔 INFORMACIÓN DE 𝑴𝑶𝑵𝑲𝑬𝒀 〕⬣*
+*╭━〔 INFORMACIÓN DE 𝙏𝙊𝙉𝙔 〕⬣*
 ┃💫➺ _${usedPrefix}cuentas_
 ┃💫➺ _${usedPrefix}grupos_
 ┃💫➺ _${usedPrefix}donar | donate_
@@ -165,7 +165,7 @@ ${readMore}
 *╰━━━━━━━━━━━━⬣*
 
 *╭━〔 ÚNETE AL GRUPO 〕━⬣*
-┃ *Une a 𝑴𝑶𝑵𝑲𝑬𝒀 en Grupos!!*
+┃ *Une a 𝙏𝙊𝙉𝙔 en Grupos!!*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃🪅 _${usedPrefix}addbot *enlace* *cantidad*_
 *╰━━━━━━━━━━━━⬣*
@@ -225,7 +225,7 @@ ${readMore}
 
 *╭━〔 IA 〕━⬣*
 ┃ *Tienes la Ocasión de*
-┃ *Conversar con 𝑴𝑶𝑵𝑲𝑬𝒀!!*
+┃ *Conversar con 𝙏𝙊𝙉𝙔!!*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃🪄➺ _${usedPrefix}simi | okgoogle *texto*_
 ┃🪄➺ _${usedPrefix}alexa | siri | cortana *texto*_
@@ -316,7 +316,7 @@ ${readMore}
 *╰━━━━━━━━━━━━⬣*
 
 *╭━[ CONFIGURACIÓN - GRUPOS ]━⬣*
-┃ *Mejora tú Grupo con 𝑴𝑶𝑵𝑲𝑬𝒀!!*
+┃ *Mejora tú Grupo con 𝙏𝙊𝙉𝙔!!*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃🌐➺ _${usedPrefix}add *numero*_
 ┃🌐➺ _${usedPrefix}sacar | ban | kick  *@tag*_
@@ -562,7 +562,7 @@ ${readMore}
 ┃⚗️➺ _${usedPrefix}trabajar | work_
 *╰━━━━━━━━━━━━⬣*
 
-*╭━━━[ TOP EN 𝑴𝑶𝑵𝑲𝑬𝒀 ]━━⬣*
+*╭━━━[ TOP EN 𝙏𝙊𝙉𝙔 ]━━⬣*
 ┃ *Averigua en que Top te encuentras!!*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃🏆➺ _${usedPrefix}top | lb | leaderboard_
