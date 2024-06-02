@@ -2,7 +2,7 @@ var handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 let pp = gataImg.getRandom()	
 const cat = `*GRUPO DE WPP*
-*https://chat.whatsapp.com/Ig0BhML7t4G8vmnmPrCKNb*
+*https://chat.whatsapp.com/Bdc1j3qNIU27mVhFsCwbFr*
 
 𝙄𝙂
 *${asistencia}*`
@@ -79,8 +79,8 @@ const listMessage = {
       const count = args[1] && args[1].length > 0 ? Math.min(99999999, Math.max(parseInt(args[1]), 1)) : !args[1] || args.length < 3 ? 1 : Math.min(1, count)
         switch (type) {
           case 'nombre':
-          await conn.reply(m.chat, `𝙉𝙊𝙈𝘽𝙍𝙀 𝘿𝙀𝙇 𝘽𝙊𝙏 : ${gt} 🙊`, fkontak, m)
-         // conn.reply(m.chat, "Nombre del bot : 𝑴𝑶𝑵𝑲𝑬𝒀", m, { contextInfo: { mentionedJid: [nowner] }})
+          await conn.reply(m.chat, `𝙉𝙊𝙈𝘽𝙍𝙀 𝘿𝙀𝙇 𝘽𝙊𝙏 : 𝙏𝙊𝙉𝙔 🙊`, fkontak, m)
+         // conn.reply(m.chat, "Nombre del bot : 𝙏𝙊𝙉𝙔", m, { contextInfo: { mentionedJid: [nowner] }})
             break
             case 'bio':
              await conn.sendFile(m.chat, gataImg.getRandom(), 'gata.jpg', teksbio, fkontak)
