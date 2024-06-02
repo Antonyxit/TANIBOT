@@ -11,13 +11,13 @@ import { en, es, id, ar, pt, fr, hi } from "./lib/idiomas/total-idiomas.js"
 //⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a | Add the numbers to be Owner ⋅.━━━━ ⊰  
 
 global.owner = [
-["5215610035034", 'oreo bot', true], //oreo bot
-["5215610035034"], 
-["5215610035034"], 
-["5215610035034"], 
-["5215610035034"],
-["5215610035034"],
-["5215610035034"]]
+["5214461018899", 'tony bot', true], //tony bot
+["5214461018899"], 
+["5214461018899"], 
+["5214461018899"], 
+["5214461018899"],
+["5214461018899"],
+["5214461018899"]]
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
@@ -26,20 +26,20 @@ global.owner = [
 global.botNumberCode = "" //Ejemplo: +59309090909
 global.confirmCode = ""
 
-global.mods = [5215610035034]
-global.prems = ["5215610035034"]
+global.mods = [5214461018899]
+global.prems = ["5214461018899"]
 //key de violetics
 global.Key360 = ["964f-0c75-7afc"]
    
   
 //⊱ ━━━━━.⋅ IDIOMA : LENGUAJE ⋅.━━━━ ⊰ 
 //Agrega el Idioma que quieres que tenga MonkeyBot
-//Add the language you want MonkeyBot to have
+//Add the language you want TonyBot to have
 //  es = Español         id = Bahasa Indonesia
 //  en = English         pt = Português 
 //  ar = عرب             hi = Hindi Language
 
-global.lenguajeGB = es //Idioma de MonkeyBot, Ejemplo: es | en | pt...
+global.lenguajeGB = es //Idioma de TonyBot, Ejemplo: es | en | pt...
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
@@ -103,47 +103,47 @@ global.moment = moment
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
 
 global.official = [ // Agregate si eres Owner
-["5215610035034", 'oreo bot', 1], 
-["5215610035034", 'oreo bot', 1],  
-["5215610035034", 'oreo bot', 1],
-["5215610035034", 'oreo bot', 1],
-["5215610035034", 'oreo bot', 1]]
+["5214461018899", 'tony bot', 1], 
+["5214461018899", 'tony bot', 1],  
+["5214461018899", 'tony bot', 1],
+["5214461018899", 'tony bot', 1],
+["5214461018899", 'tony bot', 1]]
 
 global.mail = '' //agrega tú correo
-global.desc = 'MonkeyBot el mejor bot de whatsapp' //agrega una descripción corta
-global.desc2 = 'MonkeyBot el mejor bot de whatsapp' //agrega una descripción larga (Solo se aplicará si su whasapp no tiene descripción)
+global.desc = 'TonyBot el mejor bot de whatsapp' //agrega una descripción corta
+global.desc2 = 'TonyBot el mejor bot de whatsapp' //agrega una descripción larga (Solo se aplicará si su whasapp no tiene descripción)
 global.country = 'Perú' //agrega tú país ejemplo: 🇪🇨
 
-global.packname = "oreo bot"
-global.author = "oreo bot"
+global.packname = "tony bot"
+global.author = "tony bot"
 
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
 
 global.vs = "1.7.0"
 global.vsJB = "2.5 (Beta)"
 
-global.gt = "oreo bot"
-global.yt = "https://chat.whatsapp.com/FnTTAJ8mzO3EAlR9R8g74K"
-global.yt2 = "https://chat.whatsapp.com/FnTTAJ8mzO3EAlR9R8g74K"
-global.ig = "https://chat.whatsapp.com/FnTTAJ8mzO3EAlR9R8g74K"
-global.md = "https://chat.whatsapp.com/FnTTAJ8mzO3EAlR9R8g74K"
-global.fb = "https://chat.whatsapp.com/FnTTAJ8mzO3EAlR9R8g74K"
+global.gt = "tony bot"
+global.yt = "https://chat.whatsapp.com/Bdc1j3qNIU27mVhFsCwbFr"
+global.yt2 = "https://chat.whatsapp.com/Bdc1j3qNIU27mVhFsCwbFr"
+global.ig = "https://chat.whatsapp.com/Bdc1j3qNIU27mVhFsCwbFr"
+global.md = "https://chat.whatsapp.com/Bdc1j3qNIU27mVhFsCwbFr"
+global.fb = "https://chat.whatsapp.com/Bdc1j3qNIU27mVhFsCwbFr"
 
-global.nna = 'https://chat.whatsapp.com/FnTTAJ8mzO3EAlR9R8g74K' //CANAL UPDATE
-global.nn2 = 'https://chat.whatsapp.com/FnTTAJ8mzO3EAlR9R8g74K' //UPDATE
-global.nna2 = 'https://chat.whatsapp.com/FnTTAJ8mzO3EAlR9R8g74K' //Help
-global.nn = 'https://chat.whatsapp.com/FnTTAJ8mzO3EAlR9R8g74K' //Grupo 1
-global.nnn = 'https://chat.whatsapp.com/FnTTAJ8mzO3EAlR9R8g74K' //Grupo 2
-global.nnnt = 'https://chat.whatsapp.com/FnTTAJ8mzO3EAlR9R8g74K' //Grupo 3
-global.nnntt = 'https://chat.whatsapp.com/FnTTAJ8mzO3EAlR9R8g74K' //Grupo 4
-global.nnnttt = 'https://chat.whatsapp.com/FnTTAJ8mzO3EAlR9R8g74K' //Grupo 5
-global.nnnttt1 = 'https://chat.whatsapp.com/FnTTAJ8mzO3EAlR9R8g74K'; //Grupo 6 COL
-global.nnnttt2 = 'https://chat.whatsapp.com/FnTTAJ8mzO3EAlR9R8g74K' //Grupo 7 COL
-global.nnnttt3 = 'https://chat.whatsapp.com/FnTTAJ8mzO3EAlR9R8g74K' //Grupo 8 COL
-global.nnnttt4 = 'https://chat.whatsapp.com/FnTTAJ8mzO3EAlR9R8g74K' //Grupo 9 COL
-global.nnnttt5 = 'https://chat.whatsapp.com/FnTTAJ8mzO3EAlR9R8g74K' //A.T.M.M
-global.paypal = 'https://chat.whatsapp.com/FnTTAJ8mzO3EAlR9R8g74K'
-global.asistencia = 'Wa.me/525610035034' //Dudas? escríbeme...
+global.nna = 'https://chat.whatsapp.com/Bdc1j3qNIU27mVhFsCwbFr' //CANAL UPDATE
+global.nn2 = 'https://chat.whatsapp.com/Bdc1j3qNIU27mVhFsCwbFr' //UPDATE
+global.nna2 = 'https://chat.whatsapp.com/Bdc1j3qNIU27mVhFsCwbFr' //Help
+global.nn = 'https://chat.whatsapp.com/Bdc1j3qNIU27mVhFsCwbFr' //Grupo 1
+global.nnn = 'https://chat.whatsapp.com/Bdc1j3qNIU27mVhFsCwbFr' //Grupo 2
+global.nnnt = 'https://chat.whatsapp.com/Bdc1j3qNIU27mVhFsCwbFr' //Grupo 3
+global.nnntt = 'https://chat.whatsapp.com/Bdc1j3qNIU27mVhFsCwbFr' //Grupo 4
+global.nnnttt = 'https://chat.whatsapp.com/Bdc1j3qNIU27mVhFsCwbFr' //Grupo 5
+global.nnnttt1 = 'https://chat.whatsapp.com/Bdc1j3qNIU27mVhFsCwbFr'; //Grupo 6 COL
+global.nnnttt2 = 'https://chat.whatsapp.com/Bdc1j3qNIU27mVhFsCwbFr' //Grupo 7 COL
+global.nnnttt3 = 'https://chat.whatsapp.com/Bdc1j3qNIU27mVhFsCwbFr' //Grupo 8 COL
+global.nnnttt4 = 'https://chat.whatsapp.com/Bdc1j3qNIU27mVhFsCwbFr' //Grupo 9 COL
+global.nnnttt5 = 'https://chat.whatsapp.com/Bdc1j3qNIU27mVhFsCwbFr' //A.T.M.M
+global.paypal = 'https://chat.whatsapp.com/Bdc1j3qNIU27mVhFsCwbFr'
+global.asistencia = 'Wa.me/5214461018899' //Dudas? escríbeme...
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
@@ -177,13 +177,13 @@ global.exito = eg
 
 //⊱ ━━━━━.⋅ Información | Information ⋅.━━━━ ⊰
 
-global.wm = "oreo bot"
-global.igfg = "oreo bot"
+global.wm = "tony bot"
+global.igfg = "tony bot"
 global.wait = "*⌛ _Cargando | Charging..._ ▬▭▭▭▭▭▭*"
 global.waitt = "*⌛ _Cargando | Charging..._ ▬▬▭▭▭*"
 global.waittt = "*⌛ _Cargando | Charging..._ ▬▬▬▬▭▭*"
 global.waitttt = "*⌛ _Cargando | Charging..._ ▬▬▬▬▬▬▭*"
-global.nomorown = "525625768269"
+global.nomorown = "5214461018899"
 global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"];
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
