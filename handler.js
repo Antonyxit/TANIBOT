@@ -1227,7 +1227,7 @@ if (xp > 2000)
 m.reply('Exp limit') // Hehehe
 else               
 if (!isPrems && plugin.money && global.db.data.users[m.sender].money < plugin.money * 1) {
-this.reply(m.chat, `🐈 𝙉𝙊 𝙏𝙄𝙀𝙉𝙀 𝑻𝑶𝑵𝒀𝑪𝑶𝑰𝑵𝑺`, m)
+this.reply(m.chat, ` 𝙉𝙊 𝙏𝙄𝙀𝙉𝙀 𝙏𝘼𝙉𝙄𝘾𝙊𝙄𝙉𝙎`, m)
 continue     
 }
 			
@@ -1295,7 +1295,7 @@ if (m.limit)
 m.reply(+m.limit + lenguajeGB.smsCont8())
 }
 if (m.money)
-m.reply(+m.money + '𝑻𝑶𝑵𝒀𝑪𝑶𝑰𝑵𝑺 Usados')  
+m.reply(+m.money + '𝙏𝘼𝙉𝙄𝘾𝙊𝙄𝙉𝙎 Usados')  
 break
 }}} catch (e) {
 console.error(e)
@@ -1385,7 +1385,7 @@ pp = await this.profilePictureUrl(user, 'image')
 let apii = await this.getFile(pp)                                      
 const botTt2 = groupMetadata.participants.find(u => this.decodeJid(u.id) == this.user.jid) || {} 
 const isBotAdminNn = botTt2?.admin === "admin" || false
-text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || '𝑴𝑶𝑵𝑲𝑬𝒀') :
+text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || '𝙏𝘼𝙉𝙄') :
 (chat.sBye || this.bye || conn.bye || 'Bye, @user!')).replace('@user', '@' + user.split('@')[0])
 			    
 if (chat.antifake && isBotAdminNn && action === 'add') {
@@ -1406,7 +1406,7 @@ mentionedJid:[user],
 "showAdAttribution": true,
 "renderLargerThumbnail": true,
 "thumbnail": apii.data, 
-"title": [wm, '😻 𝗦𝘂𝗽𝗲𝗿 ' + gt + ' 😻', 'https://chat.whatsapp.com/Ig0BhML7t4G8vmnmPrCKNb'].getRandom(),
+"title": [wm, '🌸 ' + gt + '🌸', 'https://chat.whatsapp.com/ELn113hltWEIFP1xCGDk7l'].getRandom(),
 "containsAutoReply": true,
 "mediaType": 1, 
 sourceUrl: [md, nna, nn2, yt, ig, paypal, fb].getRandom()}}}, { quoted: fkontak2 })
