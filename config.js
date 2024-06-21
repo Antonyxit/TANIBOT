@@ -34,7 +34,7 @@ global.Key360 = ["964f-0c75-7afc"]
   
 //⊱ ━━━━━.⋅ IDIOMA : LENGUAJE ⋅.━━━━ ⊰ 
 //Agrega el Idioma que quieres que tenga MonkeyBot
-//Add the language you want TonyBot to have
+//Add the language you want TaniBot to have
 //  es = Español         id = Bahasa Indonesia
 //  en = English         pt = Português 
 //  ar = عرب             hi = Hindi Language
