@@ -8,9 +8,8 @@ let handler = async (m, { conn, args, command, usedPrefix }) => {
 if (!args[0]) throw `6 𝐕𝐄𝐑𝐒𝐔𝐒 6
 
 𝐇𝐎𝐑𝐀𝐑𝐈𝐎
-🇵🇪 𝐏𝐄𝐑𝐔 : 
-🇦🇷 𝐀𝐑𝐆𝐄𝐍𝐓𝐈𝐍𝐀 : 
-🇨🇱 𝐂𝐇𝐈𝐋𝐄 :  
+🇨🇴 𝑪𝑶𝑳𝑶𝑴𝑩𝑰𝑨 : 
+🇲🇽 𝑴𝑬𝑿𝑰𝑪𝑶 :
 
 🥷🏻 ┇ 
 🥷🏻 ┇  
