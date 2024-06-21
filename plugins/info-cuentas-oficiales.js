@@ -6,7 +6,7 @@ let str = `💙 𝘽𝙄𝙀𝙉𝙑𝙀𝙉𝙄𝘿𝙊(𝘼) 𝘼 𝙇𝘼𝙎
 *${ig}*
 *Si tienen dudas, sugerencias, o preguntas solo escriban por Instagram.*`
 await conn.sendFile(m.chat, media, 'gata.mp4', str, fkontak)}
-/*conn.sendHydrated(m.chat, str, wm, media, 'https://chat.whatsapp.com/Ig0BhML7t4G8vmnmPrCKNb', 'MonkeyBot', null, null, [
+/*conn.sendHydrated(m.chat, str, wm, media, 'https://chat.whatsapp.com/ELn113hltWEIFP1xCGDk7l', '𝙏𝘼𝙉𝙄 𝘽𝙊𝙏', null, null, [
 ['𝙂𝙧𝙪𝙥𝙤𝙨 𝙊𝙛𝙞𝙘𝙞𝙖𝙡𝙚𝙨 | 𝙂𝙧𝙤𝙪𝙥𝙨 🔰', '.grupos'],
 ['𝘾𝙧𝙚𝙖𝙙𝙤𝙧𝙖 | 𝘾𝙧𝙚𝙖𝙩𝙤𝙧 💗', '#owner'],
 ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', '/menu']
