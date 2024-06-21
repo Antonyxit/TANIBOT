@@ -420,29 +420,29 @@ unlinkSync(filePath)})
 
 function purgeSession() {
 let prekey = []
-let directorio = readdirSync("./TonyBot")
+let directorio = readdirSync("./TaniBot")
 let filesFolderPreKeys = directorio.filter(file => {
 return file.startsWith('pre-key-')
 })
 prekey = [...prekey, ...filesFolderPreKeys]
 filesFolderPreKeys.forEach(files => {
-unlinkSync(`./TonyBot/${files}`)
+unlinkSync(`./TaniBot/${files}`)
 })
 } 
 
 function purgeSessionSB() {
 try {
-const listaDirectorios = readdirSync('./MonkeyBot/');
+const listaDirectorios = readdirSync('./TaniBot/');
 let SBprekey = [];
 listaDirectorios.forEach(directorio => {
-if (statSync(`./TonyBot/${directorio}`).isDirectory()) {
-const DSBPreKeys = readdirSync(`./GataJadiBot/${directorio}`).filter(fileInDir => {
+if (statSync(`./TaniBot/${directorio}`).isDirectory()) {
+const DSBPreKeys = readdirSync(`./TaniJadiBot/${directorio}`).filter(fileInDir => {
 return fileInDir.startsWith('pre-key-')
 })
 SBprekey = [...SBprekey, ...DSBPreKeys];
 DSBPreKeys.forEach(fileInDir => {
 if (fileInDir !== 'creds.json') {
-unlinkSync(`./TonyyBot/${directorio}/${fileInDir}`)
+unlinkSync(`./TaniBot/${directorio}/${fileInDir}`)
 }})
 }})
 if (SBprekey.length === 0) {
