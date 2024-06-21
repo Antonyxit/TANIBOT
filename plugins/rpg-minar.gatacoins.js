@@ -16,7 +16,7 @@ const fkontak = {
 
 let user = global.db.data.users[m.sender]
 let premium = user.premium  
-let minar = `${pickRandom(['Que pro 😎 has minado',
+let minar = `TANICOINS 'Que pro 😎 has minado',
 '🌟✨ Genial!! Obtienes',
 'WOW!! eres un(a) gran Minero(a) ⛏️ Obtienes',
 'Has Minado!!',
