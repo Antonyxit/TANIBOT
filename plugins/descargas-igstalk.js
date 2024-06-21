@@ -38,10 +38,10 @@ let aa = `${res3.result.photo_profile || res.profile}`
 await conn.sendFile(m.chat, aa, 'error.jpg', iggs, m)
 conn.reply(m.chat, `${lenguajeGB['smsAvisoIIG']()}💖 *Infórmate sobre las Novedades y recuerda tener la última versión.*\n\n💝 *Find out about what's new and remember to have the latest version.*`, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
-title: '𝑴𝑶𝑵𝑲𝑬𝒀',
-body: '𝑴𝑶𝑵𝑲𝑬𝒀',         
+title: '𝗧𝗔𝗡𝗜𝗕𝗢𝗧',
+body: '𝗧𝗔𝗡𝗜𝗕𝗢𝗧',         
 previewType: 0, thumbnail: fs.readFileSync("./media/menus/Menu3.jpg"),
-sourceUrl: `https://chat.whatsapp.com/Ig0BhML7t4G8vmnmPrCKNb`}}})}
+sourceUrl: `https://chat.whatsapp.com/ELn113hltWEIFP1xCGDk7l`}}})}
 handler.help = ['igstalk'].map(v => v + ' <username>')
 handler.tags = ['downloader']
 handler.command = /^(igstalk|verig|igver)$/i
